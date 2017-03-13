@@ -1,0 +1,33 @@
+#BCD to 7-segment decoder
+.i 4
+.o 7
+.p 11
+DCBA abcdefg
+000- 0000001
+0001 1001010 **
+-110 0100000
+-010 0010010 *
+-101 0100000
+11-- 0010000
+-100 1001100 **
+-111 0001001 *
+1-1- 1100000 *
+--11 0000010
+---1 0000100
+.e
+
+a = D'C'B'A + CB'A' + DB
+b = CBA' + CB'A + DB
+c = C'BA' + DC
+d = D'C'B'A + CB'A' + CBA
+e = CB'A' + A = CB' + A
+f = D'C'B'A + C'BA' + BA = D'C'A + C'B + BA
+g = D'C'B' + CBA
+
+a = AB'C'D' + A'B'C + BD
+b = AB'C + A'BC + BD
+c = A'BC' + CD
+d = AB'C'D' + ABC + A'B'C
+e = A + B'C
+f = AC'D' + AB + BC'
+g = ABC + B'C'D'

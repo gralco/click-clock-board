@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX6817
+D Dual IC Debounce Switch Interface
+K Debounce
+$ENDCMP
+#
+$CMP Switch_SPDT
+D Single Pole Double Throw (SPDT) switch
+$ENDCMP
+#
+#End Doc Library

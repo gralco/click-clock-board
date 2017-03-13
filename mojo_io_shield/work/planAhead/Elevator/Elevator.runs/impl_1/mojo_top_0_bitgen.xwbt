@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=/home/ekuzmenko/Desktop/projects/Clock IO Shield/work/planAhead/Elevator/Elevator.runs/impl_1/mojo_top_0_routed.ncd
+OUTFILE=/home/ekuzmenko/Desktop/projects/Clock IO Shield/work/planAhead/Elevator/Elevator.runs/impl_1/mojo_top_0.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/ekuzmenko/Desktop/projects/Clock IO Shield/work/planAhead/Elevator/Elevator.runs/impl_1
+LICENSE=WebPack
+USER_INFO=211028326_0_0_914
