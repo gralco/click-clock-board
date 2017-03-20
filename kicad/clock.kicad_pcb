@@ -3,9 +3,9 @@
   (general
     (links 179)
     (no_connects 0)
-    (area 106.482857 73 204.017143 119.000001)
+    (area 111.924999 76.924999 198.575001 115.075001)
     (thickness 1.6)
-    (drawings 18)
+    (drawings 19)
     (tracks 993)
     (zones 0)
     (modules 56)
@@ -2250,6 +2250,9 @@
       (net 2 GND) (zone_connect 2))
   )
 
+  (gr_text "Click-Clock Board v0.1\nGNU GPLv3" (at 155 111) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 116 77) (end 194.5 77) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 194.5 115) (end 116 115) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 193.5 106) (end 193.5 86) (angle 90) (layer Edge.Cuts) (width 0.15))
