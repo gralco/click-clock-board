@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ekuzmenko/click-clock-board/kicad/clock.sch)
-    (date "Sun 19 Mar 2017 12:47:31 PM MDT")
+    (date "Sun 19 Mar 2017 10:40:09 PM MDT")
     (tool "Eeschema 4.0.4-1.fc25-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -567,10 +567,10 @@
         (pin (num 2) (name ~) (type passive))
         (pin (num 3) (name ~) (type passive)))))
   (libraries
-    (library (logical clock-rescue)
-      (uri /home/ekuzmenko/click-clock-board/kicad/clock-rescue.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical clock-rescue)
+      (uri /home/ekuzmenko/click-clock-board/kicad/clock-rescue.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical 74xx)
