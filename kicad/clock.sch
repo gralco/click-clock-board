@@ -37,8 +37,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 2
 Title "Clock"
-Date "2017-03-19"
-Rev "0.1"
+Date "2017-03-21"
+Rev "0.2"
 Comp "Scalez Inc."
 Comment1 ""
 Comment2 ""
