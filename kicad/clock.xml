@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/ekuzmenko/click-clock-board/kicad/clock.sch</source>
+    <date>Wed 22 Mar 2017 07:36:13 PM MDT</date>
+    <tool>Eeschema 4.0.4-1.fc25-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Clock</title>
+        <company>Scalez Inc.</company>
+        <rev>0.2</rev>
+        <date>2017-03-21</date>
+        <source>clock.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Display/" tstamps="/5768CBC0/">
+      <title_block>
+        <title>Clock</title>
+        <company/>
+        <rev>A</rev>
+        <date>2016-06-12</date>
+        <source>display.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U7">
+      <value>74LS00</value>
+      <footprint>clock:SOIC-14</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn7400.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS00DR</field>
+        <field name="Distrib PN">296-14873-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS00DR/296-14873-1-ND/562561</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls00&amp;stock=1</field>
+      </fields>
+      <libsource lib="74xx" part="74LS00"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5747C610</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74LS90</value>
+      <footprint>clock:SOIC-14</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls93.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS90D</field>
+        <field name="Distrib PN">296-3746-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls90&amp;stock=1</field>
+      </fields>
+      <libsource lib="clock-rescue" part="74LS90-RESCUE-clock"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57564BA3</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74LS163</value>
+      <footprint>clock:SOIC-16</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls163a.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS163ADR</field>
+        <field name="Distrib PN">296-44704-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS163ADR/296-44704-1-ND/6165048</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls163&amp;stock=1</field>
+      </fields>
+      <libsource lib="74xx" part="74LS163"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57564E1F</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74LS247</value>
+      <footprint>clock:SOIC-16</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls247.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS247DR</field>
+        <field name="Distrib PN">296-38241-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS247DR/296-38241-1-ND/4967446</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls247&amp;stock=1</field>
+      </fields>
+      <libsource lib="74xx" part="74LS247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575658A2</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>74LS73</value>
+      <footprint>clock:SOIC-14</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls73a.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS73ADR</field>
+        <field name="Distrib PN">296-3742-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS73ADR/296-3742-1-ND/405154</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74LS73&amp;stock=1</field>
+      </fields>
+      <libsource lib="74xx" part="74LS73"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57DF8D21</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX6817</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Maxim</field>
+        <field name="MFG Part Num">MAX6817EUT+T</field>
+        <field name="Distrib PN">MAX6817EUT+TCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/maxim-integrated/MAX6817EUT-T/MAX6817EUT-TCT-ND/774156</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=MAX6817&amp;stock=1</field>
+      </fields>
+      <libsource lib="clock" part="MAX6817"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58671B27</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">TDK</field>
+        <field name="MFG Part Num">C2012X7T2E104K125AE</field>
+        <field name="Distrib PN">445-8883-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/tdk-corporation/C2012X7T2E104K125AE/445-8883-1-ND/3283672</field>
+        <field name="Tolerance">10%</field>
+        <field name="Others">http://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&amp;pkeyword=&amp;pv3=3&amp;pv3=2&amp;pv14=34&amp;pv14=4&amp;pv14=9&amp;pv14=20&amp;pv14=22&amp;pv14=32&amp;pv14=38&amp;pv14=2&amp;pv14=14&amp;pv14=18&amp;FV=ffe0003c%2C340028%2C400006%2C1f140000&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586BC469</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On</field>
+        <field name="MFG Part Num">LTST-C171KRKT</field>
+        <field name="Distrib PN">160-1427-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&amp;pkeyword=&amp;pv1989=0&amp;pv37=1&amp;pv1843=2&amp;pv16=6&amp;FV=ffe00069&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58650D2E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58650E59</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/705530002_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Molex</field>
+        <field name="MFG Part Num">0705530002</field>
+        <field name="Distrib PN">WM4901-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/molex-llc/0705530002/WM4901-ND/114955</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586C2725</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SWITCH_MIN</value>
+      <footprint>clock:SWITCH_SPDT</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/AB_Series.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">NKK Switches</field>
+        <field name="MFG Part Num">AB15AP-FA</field>
+        <field name="Distrib PN">360-2706-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/nkk-switches/AB15AP-FA/360-2706-ND/1058527</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="clock" part="Switch_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58708EE5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22μF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">TDK</field>
+        <field name="MFG Part Num">C2012X6S0J226M085AC</field>
+        <field name="Distrib PN">445-14469-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/tdk-corporation/C2012X6S0J226M085AC/445-14469-1-ND/3956135</field>
+        <field name="Tolerance">20%</field>
+        <field name="Others">http://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&amp;pkeyword=&amp;pv1501=7&amp;pv1501=101&amp;FV=1437e4%2C340080%2C340082%2C34008b%2C34009f%2C3400a1%2C3400aa%2C3400b7%2C3400ba%2C3400d3%2C3400d6%2C3400e7%2C340208%2C340223%2C340043%2C34005b%2C400006%2C1f140000%2Cffe0003c%2C380014%2C380016%2C380022%2C380004%2C380009&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF4A73</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22μF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">TDK</field>
+        <field name="MFG Part Num">C2012X6S0J226M085AC</field>
+        <field name="Distrib PN">445-14469-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/tdk-corporation/C2012X6S0J226M085AC/445-14469-1-ND/3956135</field>
+        <field name="Tolerance">20%</field>
+        <field name="Others">http://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&amp;pkeyword=&amp;pv1501=7&amp;pv1501=101&amp;FV=1437e4%2C340080%2C340082%2C34008b%2C34009f%2C3400a1%2C3400aa%2C3400b7%2C3400ba%2C3400d3%2C3400d6%2C3400e7%2C340208%2C340223%2C340043%2C34005b%2C400006%2C1f140000%2Cffe0003c%2C380014%2C380016%2C380022%2C380004%2C380009&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D31ACF</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74LS90</value>
+      <footprint>clock:SOIC-14</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls93.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS90D</field>
+        <field name="Distrib PN">296-3746-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls90&amp;stock=1</field>
+      </fields>
+      <libsource lib="clock-rescue" part="74LS90-RESCUE-clock"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D5CD8C</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74LS90</value>
+      <footprint>clock:SOIC-14</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls93.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS90D</field>
+        <field name="Distrib PN">296-3746-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls90&amp;stock=1</field>
+      </fields>
+      <libsource lib="clock-rescue" part="74LS90-RESCUE-clock"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D5FCEA</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74LS90</value>
+      <footprint>clock:SOIC-14</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls93.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS90D</field>
+        <field name="Distrib PN">296-3746-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls90&amp;stock=1</field>
+      </fields>
+      <libsource lib="clock-rescue" part="74LS90-RESCUE-clock"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D66BF9</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74LS247</value>
+      <footprint>clock:SOIC-16</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls247.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS247DR</field>
+        <field name="Distrib PN">296-38241-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS247DR/296-38241-1-ND/4967446</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls247&amp;stock=1</field>
+      </fields>
+      <libsource lib="74xx" part="74LS247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D726A2</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>74LS247</value>
+      <footprint>clock:SOIC-16</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls247.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Texas Instruments</field>
+        <field name="MFG Part Num">SN74LS247DR</field>
+        <field name="Distrib PN">296-38241-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/texas-instruments/SN74LS247DR/296-38241-1-ND/4967446</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en?keywords=74ls247&amp;stock=1</field>
+      </fields>
+      <libsource lib="74xx" part="74LS247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D727D2</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SWITCH_HR</value>
+      <footprint>clock:SWITCH_SPDT</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/AB_Series.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">NKK Switches</field>
+        <field name="MFG Part Num">AB15AP-FA</field>
+        <field name="Distrib PN">360-2706-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/nkk-switches/AB15AP-FA/360-2706-ND/1058527</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="clock" part="Switch_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DA4360</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>7SEGM_HT</value>
+      <footprint>Displays_7-Segment:7SegmentLED_LTS6760_LTS6780</footprint>
+      <datasheet>http://www.excesssolutions.com/mas_assets/acrobat/ES6683.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On Inc.</field>
+        <field name="MFG Part Num">LTS-6760P</field>
+        <field name="Distrib PN">160-2014-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTS-6760P/160-2014-5-ND/3199482</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="display" part="7SEGM"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>5768F3D5</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>7SEGM_HO</value>
+      <footprint>Displays_7-Segment:7SegmentLED_LTS6760_LTS6780</footprint>
+      <datasheet>http://www.excesssolutions.com/mas_assets/acrobat/ES6683.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On Inc.</field>
+        <field name="MFG Part Num">LTS-6760P</field>
+        <field name="Distrib PN">160-2014-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTS-6760P/160-2014-5-ND/3199482</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="display" part="7SEGM"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>57624647</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>7SEGM_MT</value>
+      <footprint>Displays_7-Segment:7SegmentLED_LTS6760_LTS6780</footprint>
+      <datasheet>http://www.excesssolutions.com/mas_assets/acrobat/ES6683.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On Inc.</field>
+        <field name="MFG Part Num">LTS-6760P</field>
+        <field name="Distrib PN">160-2014-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTS-6760P/160-2014-5-ND/3199482</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="display" part="7SEGM"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>5762492F</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>7SEGM_MO</value>
+      <footprint>Displays_7-Segment:7SegmentLED_LTS6760_LTS6780</footprint>
+      <datasheet>http://www.excesssolutions.com/mas_assets/acrobat/ES6683.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On Inc.</field>
+        <field name="MFG Part Num">LTS-6760P</field>
+        <field name="Distrib PN">160-2014-5-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTS-6760P/160-2014-5-ND/3199482</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">-</field>
+      </fields>
+      <libsource lib="display" part="7SEGM"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>57624A05</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On</field>
+        <field name="MFG Part Num">LTST-C171KRKT</field>
+        <field name="Distrib PN">160-1427-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&amp;pkeyword=&amp;pv1989=0&amp;pv37=1&amp;pv1843=2&amp;pv16=6&amp;FV=ffe00069&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D3CCFE</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On</field>
+        <field name="MFG Part Num">LTST-C171KRKT</field>
+        <field name="Distrib PN">160-1427-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&amp;pkeyword=&amp;pv1989=0&amp;pv37=1&amp;pv1843=2&amp;pv16=6&amp;FV=ffe00069&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D3D896</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Lite-On</field>
+        <field name="MFG Part Num">LTST-C171KRKT</field>
+        <field name="Distrib PN">160-1427-1-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800</field>
+        <field name="Tolerance">-</field>
+        <field name="Others">http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&amp;pkeyword=&amp;pv1989=0&amp;pv37=1&amp;pv1843=2&amp;pv16=6&amp;FV=ffe00069&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D3DB41</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D53569</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5359E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D53609</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5370D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5384D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D53903</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5395B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D539BB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D53A41</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D53AC3</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54A58</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54A65</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54A72</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54A7F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54A8C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54A99</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D54AA6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5514A</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D55157</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D55164</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D55171</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5517E</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D5518B</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58D55198</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58DB149E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>150Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="MFG Name">Stackpole Electronics</field>
+        <field name="MFG Part Num">RMCF0805JT150R</field>
+        <field name="Distrib PN">RMCF0805JT150RCT-ND</field>
+        <field name="Distrib Link">http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541</field>
+        <field name="Tolerance">5%</field>
+        <field name="Others">http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv16=6&amp;FV=ffe00034%2C400bb&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Display/" tstamps="/5768CBC0/"/>
+      <tstamp>58DB173A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS00">
+      <aliases>
+        <alias>74LS37</alias>
+        <alias>7400</alias>
+        <alias>74HCT00</alias>
+        <alias>74HC00</alias>
+      </aliases>
+      <description>Quad nand2</description>
+      <footprints>
+        <fp>14DIP300*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS161">
+      <aliases>
+        <alias>74LS160</alias>
+        <alias>74LS162</alias>
+        <alias>74LS163</alias>
+      </aliases>
+      <description>Sychronous 4 bits programmable binary Counter</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS161</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MR" type="input"/>
+        <pin num="2" name="Cp" type="input"/>
+        <pin num="3" name="P0" type="input"/>
+        <pin num="4" name="P1" type="input"/>
+        <pin num="5" name="P2" type="input"/>
+        <pin num="6" name="P3" type="input"/>
+        <pin num="7" name="Cep" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~Pe" type="input"/>
+        <pin num="10" name="Cet" type="input"/>
+        <pin num="11" name="Q3" type="output"/>
+        <pin num="12" name="Q2" type="output"/>
+        <pin num="13" name="Q1" type="output"/>
+        <pin num="14" name="Q0" type="output"/>
+        <pin num="15" name="Tc" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS247">
+      <aliases>
+        <alias>74LS246</alias>
+      </aliases>
+      <description>BDC to 7 segments Decoder Open Collec. active Low</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS247</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="Lt" type="input"/>
+        <pin num="4" name="Rbo" type="output"/>
+        <pin num="5" name="Rbi" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="e" type="openCol"/>
+        <pin num="10" name="d" type="openCol"/>
+        <pin num="11" name="c" type="openCol"/>
+        <pin num="12" name="b" type="openCol"/>
+        <pin num="13" name="a" type="openCol"/>
+        <pin num="14" name="g" type="openCol"/>
+        <pin num="15" name="f" type="openCol"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS73">
+      <description>Dual JK FlipFlop, reset</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS73</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Cp" type="input"/>
+        <pin num="2" name="Cd" type="input"/>
+        <pin num="3" name="K" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="Cp" type="input"/>
+        <pin num="6" name="Cd" type="input"/>
+        <pin num="7" name="J" type="input"/>
+        <pin num="8" name="~Q" type="output"/>
+        <pin num="9" name="Q" type="output"/>
+        <pin num="10" name="K" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="Q" type="output"/>
+        <pin num="13" name="~Q" type="output"/>
+        <pin num="14" name="J" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="clock-rescue" part="74LS90-RESCUE-clock">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS90-RESCUE-clock</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CP1..3" type="input"/>
+        <pin num="2" name="R0(1)" type="input"/>
+        <pin num="3" name="R0(2)" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="R9(1)" type="input"/>
+        <pin num="7" name="R9(2)" type="input"/>
+        <pin num="8" name="Q2" type="output"/>
+        <pin num="9" name="Q1" type="output"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Q3" type="output"/>
+        <pin num="12" name="Q0" type="output"/>
+        <pin num="14" name="CP0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="display" part="7SEGM">
+      <description>Afficheur Leds 7 segments</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">7SEGM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Segm_E" type="passive"/>
+        <pin num="2" name="Segm_D" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="Segm_C" type="passive"/>
+        <pin num="5" name="SegmDP" type="passive"/>
+        <pin num="6" name="Segm_B" type="passive"/>
+        <pin num="7" name="Segm_A" type="passive"/>
+        <pin num="8" name="K" type="input"/>
+        <pin num="9" name="Segm_F" type="passive"/>
+        <pin num="10" name="Segm_G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="clock" part="MAX6817">
+      <description>Dual IC Debounce Switch Interface</description>
+      <footprints>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6817</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN2" type="input"/>
+        <pin num="4" name="OUT2" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="OUT1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="clock" part="Switch_SPDT">
+      <description>Single Pole Double Throw (SPDT) switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="clock-rescue">
+      <uri>/home/ekuzmenko/click-clock-board/kicad/clock-rescue.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="display">
+      <uri>/usr/share/kicad/library/display.lib</uri>
+    </library>
+    <library logical="clock">
+      <uri>/home/ekuzmenko/click-clock-board/kicad/clock.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/pm">
+      <node ref="D2" pin="1"/>
+      <node ref="U11" pin="13"/>
+    </net>
+    <net code="2" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U11-Pad9)">
+      <node ref="U7" pin="10"/>
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="4" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="5" name="VCC">
+      <node ref="C1" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U8" pin="16"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U6" pin="5"/>
+      <node ref="R13" pin="2"/>
+      <node ref="S4" pin="8"/>
+      <node ref="S4" pin="5"/>
+      <node ref="S1" pin="10"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U10" pin="16"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="S4" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U11" pin="14"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="3"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="S1" pin="5"/>
+      <node ref="S1" pin="7"/>
+      <node ref="S1" pin="8"/>
+      <node ref="U9" pin="7"/>
+      <node ref="S1" pin="3"/>
+      <node ref="U9" pin="10"/>
+      <node ref="S1" pin="9"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U9" pin="16"/>
+      <node ref="S3" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="S2" pin="8"/>
+      <node ref="S2" pin="5"/>
+      <node ref="S3" pin="3"/>
+      <node ref="S2" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="S3" pin="8"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U4" pin="3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="7" name="Net-(SW2-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="8" name="/mti2">
+      <node ref="U6" pin="8"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="/osc">
+      <node ref="SW2" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="6"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="12" name="Net-(U11-Pad5)">
+      <node ref="U7" pin="11"/>
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad11)">
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="14" name="/ht">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="15" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="16" name="Net-(U11-Pad12)">
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="17" name="/moi3">
+      <node ref="U4" pin="11"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="18" name="/moi2">
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="19" name="/moi0">
+      <node ref="U5" pin="7"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="20" name="/min_one_a">
+      <node ref="U5" pin="13"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="21" name="/hr_one_g">
+      <node ref="R11" pin="1"/>
+      <node ref="U10" pin="14"/>
+    </net>
+    <net code="22" name="/hr_one_f">
+      <node ref="U10" pin="15"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="23" name="/min_ten_a">
+      <node ref="R14" pin="1"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="24" name="/min_ten_b">
+      <node ref="R15" pin="1"/>
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="25" name="/min_ten_c">
+      <node ref="R16" pin="1"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="26" name="/min_ten_d">
+      <node ref="U8" pin="10"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="27" name="/min_ten_e">
+      <node ref="U8" pin="9"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="28" name="/min_ten_g">
+      <node ref="U8" pin="14"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="29" name="/min_ten_f">
+      <node ref="R19" pin="1"/>
+      <node ref="U8" pin="15"/>
+    </net>
+    <net code="30" name="/hr_one_a">
+      <node ref="U10" pin="13"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="31" name="/min_one_b">
+      <node ref="R22" pin="1"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="32" name="/min_one_c">
+      <node ref="U5" pin="11"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="33" name="/min_one_d">
+      <node ref="U5" pin="10"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="34" name="/min_one_e">
+      <node ref="R25" pin="1"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="35" name="/min_one_g">
+      <node ref="R27" pin="1"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="36" name="/min_one_f">
+      <node ref="U5" pin="15"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="37" name="/hr_one_b">
+      <node ref="R6" pin="1"/>
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="38" name="/hr_one_c">
+      <node ref="R7" pin="1"/>
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="39" name="/hr_one_d">
+      <node ref="R8" pin="1"/>
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="40" name="Net-(U10-Pad4)">
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="41" name="/hr_one_e">
+      <node ref="R9" pin="1"/>
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="42" name="Net-(U11-Pad1)">
+      <node ref="U11" pin="1"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="44" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="46" name="Net-(U6-Pad11)">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="47" name="Net-(U8-Pad4)">
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="48" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="49" name="Net-(U9-Pad15)">
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="53" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="54" name="/moi1">
+      <node ref="U4" pin="9"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad4)">
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="57" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="S2" pin="10"/>
+    </net>
+    <net code="58" name="Net-(R10-Pad2)">
+      <node ref="S2" pin="9"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="59" name="Net-(R9-Pad2)">
+      <node ref="S2" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="61" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="S2" pin="4"/>
+    </net>
+    <net code="62" name="Net-(R6-Pad2)">
+      <node ref="S2" pin="6"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R5-Pad2)">
+      <node ref="S2" pin="7"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="64" name="Net-(R21-Pad2)">
+      <node ref="S4" pin="7"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D4-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="68" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="S3" pin="4"/>
+    </net>
+    <net code="69" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="S3" pin="2"/>
+    </net>
+    <net code="70" name="Net-(R18-Pad2)">
+      <node ref="S3" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="71" name="Net-(R19-Pad2)">
+      <node ref="S3" pin="9"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="72" name="Net-(R20-Pad2)">
+      <node ref="S3" pin="10"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="73" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="S3" pin="7"/>
+    </net>
+    <net code="74" name="Net-(R15-Pad2)">
+      <node ref="S3" pin="6"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="75" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="S4" pin="4"/>
+    </net>
+    <net code="76" name="Net-(R24-Pad2)">
+      <node ref="S4" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="S4" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="S4" pin="9"/>
+    </net>
+    <net code="79" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="S4" pin="10"/>
+    </net>
+    <net code="80" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="S4" pin="6"/>
+    </net>
+    <net code="81" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="82" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="83" name="/hoi1">
+      <node ref="U7" pin="9"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="84" name="/mti0">
+      <node ref="U6" pin="12"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="85" name="/mti1">
+      <node ref="U6" pin="9"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="86" name="/hoi0">
+      <node ref="U10" pin="7"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="87" name="/hoi2">
+      <node ref="U10" pin="2"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="88" name="/hoi3">
+      <node ref="U9" pin="11"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U10" pin="6"/>
+    </net>
+  </nets>
+</export>

@@ -52,19 +52,14 @@ P 14000 8300
 F 0 "U7" H 14000 8350 50  0000 C CNN
 F 1 "74LS00" H 14000 8200 50  0000 C CNN
 F 2 "clock:SOIC-14" H 14000 8300 50  0001 C CNN
-F 3 "" H 14000 8300 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn7400.pdf" H 14000 8300 50  0001 C CNN
+F 4 "Texas Instruments" H 14000 8300 60  0001 C CNN "MFG Name"
+F 5 "SN74LS00DR" H 14000 8300 60  0001 C CNN "MFG Part Num"
+F 6 "296-14873-1-ND" H 14000 8300 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS00DR/296-14873-1-ND/562561" H 14000 8300 60  0001 C CNN "Distrib Link"
+F 8 "-" H 14000 8300 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls00&stock=1" H 14000 8300 60  0001 C CNN "Others"
 	1    14000 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS00 U7
-U 2 1 5747C6A6
-P 17750 7200
-F 0 "U7" H 17750 7250 50  0000 C CNN
-F 1 "74LS00" H 17750 7100 50  0000 C CNN
-F 2 "clock:SOIC-14" H 17750 7200 50  0001 C CNN
-F 3 "" H 17750 7200 50  0000 C CNN
-	2    17750 7200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -74,41 +69,14 @@ P 3950 7400
 F 0 "U1" H 4050 7400 50  0000 C CNN
 F 1 "74LS90" H 4150 7200 50  0000 C CNN
 F 2 "clock:SOIC-14" H 3950 7400 50  0001 C CNN
-F 3 "" H 3950 7400 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls93.pdf" H 3950 7400 50  0001 C CNN
+F 4 "Texas Instruments" H 3950 7400 60  0001 C CNN "MFG Name"
+F 5 "SN74LS90D" H 3950 7400 60  0001 C CNN "MFG Part Num"
+F 6 "296-3746-5-ND" H 3950 7400 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741" H 3950 7400 60  0001 C CNN "Distrib Link"
+F 8 "-" H 3950 7400 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls90&stock=1" H 3950 7400 60  0001 C CNN "Others"
 	1    3950 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS90-RESCUE-clock U4
-U 1 1 57564C60
-P 9900 8000
-F 0 "U4" H 10000 8000 50  0000 C CNN
-F 1 "74LS90" H 10100 7800 50  0000 C CNN
-F 2 "clock:SOIC-14" H 9900 8000 50  0001 C CNN
-F 3 "" H 9900 8000 50  0000 C CNN
-	1    9900 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS90-RESCUE-clock U2
-U 1 1 57564D2A
-P 5600 7700
-F 0 "U2" H 5700 7700 50  0000 C CNN
-F 1 "74LS90" H 5800 7500 50  0000 C CNN
-F 2 "clock:SOIC-14" H 5600 7700 50  0001 C CNN
-F 3 "" H 5600 7700 50  0000 C CNN
-	1    5600 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS90-RESCUE-clock U6
-U 1 1 57564D79
-P 12100 8300
-F 0 "U6" H 12200 8300 50  0000 C CNN
-F 1 "74LS90" H 12300 8100 50  0000 C CNN
-F 2 "clock:SOIC-14" H 12100 8300 50  0001 C CNN
-F 3 "" H 12100 8300 50  0000 C CNN
-	1    12100 8300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -118,7 +86,13 @@ P 15450 8000
 F 0 "U9" H 15500 8100 50  0000 C CNN
 F 1 "74LS163" H 15550 7800 50  0000 C CNN
 F 2 "clock:SOIC-16" H 15450 8000 50  0001 C CNN
-F 3 "" H 15450 8000 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls163a.pdf" H 15450 8000 50  0001 C CNN
+F 4 "Texas Instruments" H 15450 8000 60  0001 C CNN "MFG Name"
+F 5 "SN74LS163ADR" H 15450 8000 60  0001 C CNN "MFG Part Num"
+F 6 "296-44704-1-ND" H 15450 8000 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS163ADR/296-44704-1-ND/6165048" H 15450 8000 60  0001 C CNN "Distrib Link"
+F 8 "-" H 15450 8000 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls163&stock=1" H 15450 8000 60  0001 C CNN "Others"
 	1    15450 8000
 	1    0    0    -1  
 $EndComp
@@ -129,30 +103,14 @@ P 12100 7300
 F 0 "U5" H 12100 7400 50  0000 C CNN
 F 1 "74LS247" H 12100 7250 50  0000 C CNN
 F 2 "clock:SOIC-16" H 12100 7300 50  0001 C CNN
-F 3 "" H 12100 7300 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls247.pdf" H 12100 7300 50  0001 C CNN
+F 4 "Texas Instruments" H 12100 7300 60  0001 C CNN "MFG Name"
+F 5 "SN74LS247DR" H 12100 7300 60  0001 C CNN "MFG Part Num"
+F 6 "296-38241-1-ND" H 12100 7300 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS247DR/296-38241-1-ND/4967446" H 12100 7300 60  0001 C CNN "Distrib Link"
+F 8 "-" H 12100 7300 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls247&stock=1" H 12100 7300 60  0001 C CNN "Others"
 	1    12100 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS247 U8
-U 1 1 57565A09
-P 14300 6850
-F 0 "U8" H 14300 6950 50  0000 C CNN
-F 1 "74LS247" H 14300 6800 50  0000 C CNN
-F 2 "clock:SOIC-16" H 14300 6850 50  0001 C CNN
-F 3 "" H 14300 6850 50  0000 C CNN
-	1    14300 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS247 U10
-U 1 1 57565AB0
-P 17650 6450
-F 0 "U10" H 17650 6550 50  0000 C CNN
-F 1 "74LS247" H 17650 6400 50  0000 C CNN
-F 2 "clock:SOIC-16" H 17650 6450 50  0001 C CNN
-F 3 "" H 17650 6450 50  0000 C CNN
-	1    17650 6450
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6350 7700
@@ -187,10 +145,10 @@ Text Notes 14790 8430 0    60   ~ 0
 Text Notes 15900 7930 0    60   ~ 0
 RCO
 $Comp
-L VCC #PWR01
+L VCC #PWR20
 U 1 1 575E6A80
 P 19750 7100
-F 0 "#PWR01" H 19750 6950 50  0001 C CNN
+F 0 "#PWR20" H 19750 6950 50  0001 C CNN
 F 1 "VCC" H 19850 7200 50  0000 C CNN
 F 2 "" H 19750 7100 50  0000 C CNN
 F 3 "" H 19750 7100 50  0000 C CNN
@@ -213,10 +171,10 @@ Text Label 11100 7300 2    60   ~ 0
 moi[0..3]
 NoConn ~ 12800 7700
 $Comp
-L VCC #PWR02
+L VCC #PWR1
 U 1 1 575ED979
 P 700 800
-F 0 "#PWR02" H 700 650 50  0001 C CNN
+F 0 "#PWR1" H 700 650 50  0001 C CNN
 F 1 "VCC" H 700 950 50  0000 C CNN
 F 2 "" H 700 800 50  0000 C CNN
 F 3 "" H 700 800 50  0000 C CNN
@@ -224,10 +182,10 @@ F 3 "" H 700 800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L PWR_FLAG #FLG1
 U 1 1 575EDA43
 P 700 750
-F 0 "#FLG03" H 700 845 50  0001 C CNN
+F 0 "#FLG1" H 700 845 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 930 50  0000 C CNN
 F 2 "" H 700 750 50  0000 C CNN
 F 3 "" H 700 750 50  0000 C CNN
@@ -235,10 +193,10 @@ F 3 "" H 700 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR2
 U 1 1 575EDA8B
 P 1100 800
-F 0 "#PWR04" H 1100 550 50  0001 C CNN
+F 0 "#PWR2" H 1100 550 50  0001 C CNN
 F 1 "GND" H 1100 650 50  0000 C CNN
 F 2 "" H 1100 800 50  0000 C CNN
 F 3 "" H 1100 800 50  0000 C CNN
@@ -246,10 +204,10 @@ F 3 "" H 1100 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L PWR_FLAG #FLG2
 U 1 1 575EDAD3
 P 1100 750
-F 0 "#FLG05" H 1100 845 50  0001 C CNN
+F 0 "#FLG2" H 1100 845 50  0001 C CNN
 F 1 "PWR_FLAG" H 1100 930 50  0000 C CNN
 F 2 "" H 1100 750 50  0000 C CNN
 F 3 "" H 1100 750 50  0000 C CNN
@@ -274,63 +232,52 @@ hoo[0..3]
 Text Label 16650 6500 2    60   ~ 0
 hoi[0..3]
 NoConn ~ 18350 6850
-Text Label 12800 6900 0    60   ~ 0
+Text Label 13300 6900 2    60   ~ 0
 min_one_a
-Text Label 12800 7000 0    60   ~ 0
+Text Label 13300 7000 2    60   ~ 0
 min_one_b
-Text Label 12800 7100 0    60   ~ 0
+Text Label 13300 7100 2    60   ~ 0
 min_one_c
-Text Label 12800 7200 0    60   ~ 0
+Text Label 13300 7200 2    60   ~ 0
 min_one_d
-Text Label 12800 7300 0    60   ~ 0
+Text Label 13300 7300 2    60   ~ 0
 min_one_e
-Text Label 12800 7500 0    60   ~ 0
+Text Label 13300 7500 2    60   ~ 0
 min_one_f
-Text Label 12800 7400 0    60   ~ 0
+Text Label 13300 7400 2    60   ~ 0
 min_one_g
 Text Label 21150 8400 2    60   ~ 0
 pm
-Text Label 15000 6450 0    60   ~ 0
+Text Label 15450 6450 2    60   ~ 0
 min_ten_a
-Text Label 15000 6550 0    60   ~ 0
+Text Label 15450 6550 2    60   ~ 0
 min_ten_b
-Text Label 15000 6650 0    60   ~ 0
+Text Label 15450 6650 2    60   ~ 0
 min_ten_c
-Text Label 15000 6750 0    60   ~ 0
+Text Label 15450 6750 2    60   ~ 0
 min_ten_d
-Text Label 15000 6850 0    60   ~ 0
+Text Label 15450 6850 2    60   ~ 0
 min_ten_e
-Text Label 15000 7050 0    60   ~ 0
+Text Label 15450 7050 2    60   ~ 0
 min_ten_f
-Text Label 15000 6950 0    60   ~ 0
+Text Label 15450 6950 2    60   ~ 0
 min_ten_g
-Text Label 18350 6050 0    60   ~ 0
+Text Label 18750 6050 2    60   ~ 0
 hr_one_a
-Text Label 18350 6150 0    60   ~ 0
+Text Label 18750 6150 2    60   ~ 0
 hr_one_b
-Text Label 18350 6250 0    60   ~ 0
+Text Label 18750 6250 2    60   ~ 0
 hr_one_c
-Text Label 18350 6350 0    60   ~ 0
+Text Label 18750 6350 2    60   ~ 0
 hr_one_d
-Text Label 18350 6450 0    60   ~ 0
+Text Label 18750 6450 2    60   ~ 0
 hr_one_e
-Text Label 18350 6650 0    60   ~ 0
+Text Label 18750 6650 2    60   ~ 0
 hr_one_f
-Text Label 18350 6550 0    60   ~ 0
+Text Label 18750 6550 2    60   ~ 0
 hr_one_g
 Text Label 21150 7500 2    60   ~ 0
 ht
-$Comp
-L 74LS00 U7
-U 3 1 5747C6F7
-P 17750 8200
-F 0 "U7" H 17750 8250 50  0000 C CNN
-F 1 "74LS00" H 17750 8100 50  0000 C CNN
-F 2 "clock:SOIC-14" H 17750 8200 50  0001 C CNN
-F 3 "" H 17750 8200 50  0000 C CNN
-	3    17750 8200
-	1    0    0    -1  
-$EndComp
 Text Label 16550 7500 2    60   ~ 0
 hoo0
 Text Label 16550 7600 2    60   ~ 0
@@ -378,17 +325,6 @@ mto1
 Text Label 13250 8200 2    60   ~ 0
 mto2
 NoConn ~ 21000 8000
-$Comp
-L 74LS00 U7
-U 4 1 5747C736
-P 19100 7300
-F 0 "U7" H 19100 7350 50  0000 C CNN
-F 1 "74LS00" H 19100 7200 50  0000 C CNN
-F 2 "clock:SOIC-14" H 19100 7300 50  0001 C CNN
-F 3 "" H 19100 7300 50  0000 C CNN
-	4    19100 7300
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	13350 6550 13450 6450
 Entry Wire Line
@@ -480,19 +416,14 @@ P 20400 7300
 F 0 "U11" H 20500 7400 50  0000 C CNN
 F 1 "74LS73" H 20500 7300 50  0000 C CNN
 F 2 "clock:SOIC-14" H 20400 7300 50  0001 C CNN
-F 3 "" H 20400 7300 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls73a.pdf" H 20400 7300 50  0001 C CNN
+F 4 "Texas Instruments" H 20400 7300 60  0001 C CNN "MFG Name"
+F 5 "SN74LS73ADR" H 20400 7300 60  0001 C CNN "MFG Part Num"
+F 6 "296-3742-1-ND" H 20400 7300 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS73ADR/296-3742-1-ND/405154" H 20400 7300 60  0001 C CNN "Distrib Link"
+F 8 "-" H 20400 7300 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74LS73&stock=1" H 20400 7300 60  0001 C CNN "Others"
 	1    20400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LS73 U11
-U 2 1 57DF9104
-P 20400 8200
-F 0 "U11" H 20500 8300 50  0000 C CNN
-F 1 "74LS73" H 20500 8200 50  0000 C CNN
-F 2 "clock:SOIC-14" H 20400 8200 50  0001 C CNN
-F 3 "" H 20400 8200 50  0000 C CNN
-	2    20400 8200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -502,15 +433,21 @@ P 8100 7950
 F 0 "U3" H 8100 7900 60  0000 C CNN
 F 1 "MAX6817" H 8100 8000 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 8100 7950 60  0001 C CNN
-F 3 "" H 8100 7950 60  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf" H 8100 7950 60  0001 C CNN
+F 4 "Maxim" H 8100 7950 60  0001 C CNN "MFG Name"
+F 5 "MAX6817EUT+T" H 8100 7950 60  0001 C CNN "MFG Part Num"
+F 6 "MAX6817EUT+TCT-ND" H 8100 7950 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/maxim-integrated/MAX6817EUT-T/MAX6817EUT-TCT-ND/774156" H 8100 7950 60  0001 C CNN "Distrib Link"
+F 8 "-" H 8100 7950 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=MAX6817&stock=1" H 8100 7950 60  0001 C CNN "Others"
 	1    8100 7950
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR10
 U 1 1 58677BA0
 P 7400 8000
-F 0 "#PWR06" H 7400 7750 50  0001 C CNN
+F 0 "#PWR10" H 7400 7750 50  0001 C CNN
 F 1 "GND" H 7525 7925 50  0000 C CNN
 F 2 "" H 7400 8000 50  0000 C CNN
 F 3 "" H 7400 8000 50  0000 C CNN
@@ -518,10 +455,10 @@ F 3 "" H 7400 8000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR07
+L VCC #PWR11
 U 1 1 5867898C
 P 8950 7900
-F 0 "#PWR07" H 8950 7750 50  0001 C CNN
+F 0 "#PWR11" H 8950 7750 50  0001 C CNN
 F 1 "VCC" H 8950 8050 50  0000 C CNN
 F 2 "" H 8950 7900 50  0000 C CNN
 F 3 "" H 8950 7900 50  0000 C CNN
@@ -529,10 +466,10 @@ F 3 "" H 8950 7900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR15
 U 1 1 586A5AF0
 P 11350 8650
-F 0 "#PWR08" H 11350 8400 50  0001 C CNN
+F 0 "#PWR15" H 11350 8400 50  0001 C CNN
 F 1 "GND" H 11200 8600 50  0000 C CNN
 F 2 "" H 11350 8650 50  0000 C CNN
 F 3 "" H 11350 8650 50  0000 C CNN
@@ -540,10 +477,10 @@ F 3 "" H 11350 8650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR09
+L VCC #PWR19
 U 1 1 586AE77D
 P 16900 6600
-F 0 "#PWR09" H 16900 6450 50  0001 C CNN
+F 0 "#PWR19" H 16900 6450 50  0001 C CNN
 F 1 "VCC" H 16900 6750 50  0000 C CNN
 F 2 "" H 16900 6600 50  0000 C CNN
 F 3 "" H 16900 6600 50  0000 C CNN
@@ -551,10 +488,10 @@ F 3 "" H 16900 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR010
+L VCC #PWR18
 U 1 1 586B2EE6
 P 14600 7750
-F 0 "#PWR010" H 14600 7600 50  0001 C CNN
+F 0 "#PWR18" H 14600 7600 50  0001 C CNN
 F 1 "VCC" H 14600 7900 50  0000 C CNN
 F 2 "" H 14600 7750 50  0000 C CNN
 F 3 "" H 14600 7750 50  0000 C CNN
@@ -562,10 +499,10 @@ F 3 "" H 14600 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR011
+L VCC #PWR16
 U 1 1 586B772B
 P 13550 7000
-F 0 "#PWR011" H 13550 6850 50  0001 C CNN
+F 0 "#PWR16" H 13550 6850 50  0001 C CNN
 F 1 "VCC" H 13550 7150 50  0000 C CNN
 F 2 "" H 13550 7000 50  0000 C CNN
 F 3 "" H 13550 7000 50  0000 C CNN
@@ -573,10 +510,10 @@ F 3 "" H 13550 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR012
+L VCC #PWR14
 U 1 1 586B83FF
 P 11350 7450
-F 0 "#PWR012" H 11350 7300 50  0001 C CNN
+F 0 "#PWR14" H 11350 7300 50  0001 C CNN
 F 1 "VCC" H 11350 7600 50  0000 C CNN
 F 2 "" H 11350 7450 50  0000 C CNN
 F 3 "" H 11350 7450 50  0000 C CNN
@@ -584,10 +521,10 @@ F 3 "" H 11350 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND #PWR9
 U 1 1 586B94E8
 P 4850 8050
-F 0 "#PWR013" H 4850 7800 50  0001 C CNN
+F 0 "#PWR9" H 4850 7800 50  0001 C CNN
 F 1 "GND" H 4700 8000 50  0000 C CNN
 F 2 "" H 4850 8050 50  0000 C CNN
 F 3 "" H 4850 8050 50  0000 C CNN
@@ -595,10 +532,10 @@ F 3 "" H 4850 8050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR8
 U 1 1 586B99B3
 P 3200 7750
-F 0 "#PWR014" H 3200 7500 50  0001 C CNN
+F 0 "#PWR8" H 3200 7500 50  0001 C CNN
 F 1 "GND" H 3200 7600 50  0000 C CNN
 F 2 "" H 3200 7750 50  0000 C CNN
 F 3 "" H 3200 7750 50  0000 C CNN
@@ -606,10 +543,10 @@ F 3 "" H 3200 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR13
 U 1 1 586BA1AE
 P 9150 8350
-F 0 "#PWR015" H 9150 8100 50  0001 C CNN
+F 0 "#PWR13" H 9150 8100 50  0001 C CNN
 F 1 "GND" H 9150 8200 50  0000 C CNN
 F 2 "" H 9150 8350 50  0000 C CNN
 F 3 "" H 9150 8350 50  0000 C CNN
@@ -617,10 +554,10 @@ F 3 "" H 9150 8350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR17
 U 1 1 586BAB66
 P 14450 7550
-F 0 "#PWR016" H 14450 7300 50  0001 C CNN
+F 0 "#PWR17" H 14450 7300 50  0001 C CNN
 F 1 "GND" H 14450 7400 50  0000 C CNN
 F 2 "" H 14450 7550 50  0000 C CNN
 F 3 "" H 14450 7550 50  0000 C CNN
@@ -634,15 +571,21 @@ P 8950 8150
 F 0 "C3" H 8975 8250 50  0000 L CNN
 F 1 "100nF" H 8700 8250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8988 8000 50  0001 C CNN
-F 3 "" H 8950 8150 50  0000 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_soft_en.pdf" H 8950 8150 50  0001 C CNN
+F 4 "TDK" H 8950 8150 60  0001 C CNN "MFG Name"
+F 5 "C2012X7T2E104K125AE" H 8950 8150 60  0001 C CNN "MFG Part Num"
+F 6 "445-8883-1-ND" H 8950 8150 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/tdk-corporation/C2012X7T2E104K125AE/445-8883-1-ND/3283672" H 8950 8150 60  0001 C CNN "Distrib Link"
+F 8 "10%" H 8950 8150 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv3=3&pv3=2&pv14=34&pv14=4&pv14=9&pv14=20&pv14=22&pv14=32&pv14=38&pv14=2&pv14=14&pv14=18&FV=ffe0003c%2C340028%2C400006%2C1f140000&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" H 8950 8150 60  0001 C CNN "Others"
 	1    8950 8150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR12
 U 1 1 586BC64C
 P 8950 8350
-F 0 "#PWR017" H 8950 8100 50  0001 C CNN
+F 0 "#PWR12" H 8950 8100 50  0001 C CNN
 F 1 "GND" H 8950 8200 50  0000 C CNN
 F 2 "" H 8950 8350 50  0000 C CNN
 F 3 "" H 8950 8350 50  0000 C CNN
@@ -1033,7 +976,13 @@ P 3100 6850
 F 0 "D1" V 3200 6725 50  0000 C CNN
 F 1 "LED" V 3050 6700 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 3100 6850 50  0001 C CNN
-F 3 "" H 3100 6850 50  0000 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf" H 3100 6850 50  0001 C CNN
+F 4 "Lite-On" V 3100 6850 60  0001 C CNN "MFG Name"
+F 5 "LTST-C171KRKT" V 3100 6850 60  0001 C CNN "MFG Part Num"
+F 6 "160-1427-1-ND" V 3100 6850 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800" V 3100 6850 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3100 6850 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&pkeyword=&pv1989=0&pv37=1&pv1843=2&pv16=6&FV=ffe00069&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 3100 6850 60  0001 C CNN "Others"
 	1    3100 6850
 	0    -1   -1   0   
 $EndComp
@@ -1042,9 +991,15 @@ L R R1
 U 1 1 58650E59
 P 3100 6450
 F 0 "R1" V 3180 6450 50  0000 C CNN
-F 1 "220Ω" V 3100 6450 50  0000 C CNN
+F 1 "150Ω" V 3100 6450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3030 6450 50  0001 C CNN
-F 3 "" H 3100 6450 50  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3100 6450 50  0001 C CNN
+F 4 "Stackpole Electronics" V 3100 6450 60  0001 C CNN "MFG Name"
+F 5 "RMCF0805JT150R" V 3100 6450 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0805JT150RCT-ND" V 3100 6450 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 3100 6450 60  0001 C CNN "Distrib Link"
+F 8 "5%" V 3100 6450 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 3100 6450 60  0001 C CNN "Others"
 	1    3100 6450
 	-1   0    0    1   
 $EndComp
@@ -1055,7 +1010,13 @@ P 2650 7100
 F 0 "P1" H 2650 7300 50  0000 C CNN
 F 1 "CONN_01X03" H 2750 6900 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x03" H 2650 7100 50  0001 C CNN
-F 3 "" H 2650 7100 50  0000 C CNN
+F 3 "http://www.molex.com/pdm_docs/sd/705530002_sd.pdf" H 2650 7100 50  0001 C CNN
+F 4 "Molex" H 2650 7100 60  0001 C CNN "MFG Name"
+F 5 "0705530002" H 2650 7100 60  0001 C CNN "MFG Part Num"
+F 6 "WM4901-ND" H 2650 7100 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/molex-llc/0705530002/WM4901-ND/114955" H 2650 7100 60  0001 C CNN "Distrib Link"
+F 8 "-" H 2650 7100 60  0001 C CNN "Tolerance"
+F 9 "-" H 2650 7100 60  0001 C CNN "Others"
 	1    2650 7100
 	-1   0    0    -1  
 $EndComp
@@ -1064,10 +1025,10 @@ Wire Wire Line
 Wire Wire Line
 	3100 6650 3100 6600
 $Comp
-L VCC #PWR018
+L VCC #PWR7
 U 1 1 586D40C8
 P 3100 6250
-F 0 "#PWR018" H 3100 6100 50  0001 C CNN
+F 0 "#PWR7" H 3100 6100 50  0001 C CNN
 F 1 "VCC" H 3100 6400 50  0000 C CNN
 F 2 "" H 3100 6250 50  0000 C CNN
 F 3 "" H 3100 6250 50  0000 C CNN
@@ -1077,10 +1038,10 @@ $EndComp
 Wire Wire Line
 	3100 6250 3100 6300
 $Comp
-L GND #PWR019
+L GND #PWR6
 U 1 1 586DB776
 P 2900 7250
-F 0 "#PWR019" H 2900 7000 50  0001 C CNN
+F 0 "#PWR6" H 2900 7000 50  0001 C CNN
 F 1 "GND" H 2900 7100 50  0000 C CNN
 F 2 "" H 2900 7250 50  0000 C CNN
 F 3 "" H 2900 7250 50  0000 C CNN
@@ -1104,19 +1065,14 @@ P 7100 7700
 F 0 "SW1" H 7075 7825 50  0000 C CNN
 F 1 "SWITCH_MIN" H 7075 7500 50  0000 C CNN
 F 2 "clock:SWITCH_SPDT" H 7100 7700 50  0001 C CNN
-F 3 "" H 7100 7700 50  0000 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/AB_Series.pdf" H 7100 7700 50  0001 C CNN
+F 4 "NKK Switches" H 7100 7700 60  0001 C CNN "MFG Name"
+F 5 "AB15AP-FA" H 7100 7700 60  0001 C CNN "MFG Part Num"
+F 6 "360-2706-ND" H 7100 7700 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/nkk-switches/AB15AP-FA/360-2706-ND/1058527" H 7100 7700 60  0001 C CNN "Distrib Link"
+F 8 "-" H 7100 7700 60  0001 C CNN "Tolerance"
+F 9 "-" H 7100 7700 60  0001 C CNN "Others"
 	1    7100 7700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Switch_SPDT SW2
-U 1 1 58709189
-P 7100 8200
-F 0 "SW2" H 7075 8325 50  0000 C CNN
-F 1 "SWITCH_HR" H 7075 8000 50  0000 C CNN
-F 2 "clock:SWITCH_SPDT" H 7100 8200 50  0001 C CNN
-F 3 "" H 7100 8200 50  0000 C CNN
-	1    7100 8200
 	-1   0    0    1   
 $EndComp
 Connection ~ 13350 8400
@@ -1134,10 +1090,10 @@ mto2
 Wire Wire Line
 	6800 8100 6550 8100
 $Comp
-L VCC #PWR020
+L VCC #PWR5
 U 1 1 58746584
 P 2900 6950
-F 0 "#PWR020" H 2900 6800 50  0001 C CNN
+F 0 "#PWR5" H 2900 6800 50  0001 C CNN
 F 1 "VCC" H 2900 7100 50  0000 C CNN
 F 2 "" H 2900 6950 50  0000 C CNN
 F 3 "" H 2900 6950 50  0000 C CNN
@@ -1151,20 +1107,15 @@ P 1800 7000
 F 0 "C1" H 1825 7100 50  0000 L CNN
 F 1 "22μF" H 1825 6900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1838 6850 50  0001 C CNN
-F 3 "" H 1800 7000 50  0000 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf" H 1800 7000 50  0001 C CNN
+F 4 "TDK" H 1800 7000 60  0001 C CNN "MFG Name"
+F 5 "C2012X6S0J226M085AC" H 1800 7000 60  0001 C CNN "MFG Part Num"
+F 6 "445-14469-1-ND" H 1800 7000 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/tdk-corporation/C2012X6S0J226M085AC/445-14469-1-ND/3956135" H 1800 7000 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 1800 7000 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1501=7&pv1501=101&FV=1437e4%2C340080%2C340082%2C34008b%2C34009f%2C3400a1%2C3400aa%2C3400b7%2C3400ba%2C3400d3%2C3400d6%2C3400e7%2C340208%2C340223%2C340043%2C34005b%2C400006%2C1f140000%2Cffe0003c%2C380014%2C380016%2C380022%2C380004%2C380009&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" H 1800 7000 60  0001 C CNN "Others"
 	1    1800 7000
 	-1   0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 58CF4BBC
-P 2000 7000
-F 0 "C2" H 2025 7100 50  0000 L CNN
-F 1 "22μF" H 2025 6900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2038 6850 50  0001 C CNN
-F 3 "" H 2000 7000 50  0000 C CNN
-	1    2000 7000
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2000 6800 2000 6850
@@ -1179,10 +1130,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 7200 2000 7150
 $Comp
-L VCC #PWR021
+L VCC #PWR3
 U 1 1 58CF5D39
 P 1900 6750
-F 0 "#PWR021" H 1900 6600 50  0001 C CNN
+F 0 "#PWR3" H 1900 6600 50  0001 C CNN
 F 1 "VCC" H 1900 6900 50  0000 C CNN
 F 2 "" H 1900 6750 50  0000 C CNN
 F 3 "" H 1900 6750 50  0000 C CNN
@@ -1193,10 +1144,10 @@ Wire Wire Line
 	1900 6750 1900 6800
 Connection ~ 1900 6800
 $Comp
-L GND #PWR022
+L GND #PWR4
 U 1 1 58CF5F3F
 P 1900 7250
-F 0 "#PWR022" H 1900 7000 50  0001 C CNN
+F 0 "#PWR4" H 1900 7000 50  0001 C CNN
 F 1 "GND" H 1900 7100 50  0000 C CNN
 F 2 "" H 1900 7250 50  0000 C CNN
 F 3 "" H 1900 7250 50  0000 C CNN
@@ -1206,8 +1157,235 @@ $EndComp
 Wire Wire Line
 	1900 7250 1900 7200
 Connection ~ 1900 7200
-Text Notes 1350 6500 0    60   ~ 0
-C2012X6S0J226M085AC
 Text Notes 3125 6700 0    60   ~ 0
 Seconds
+$Comp
+L C C2
+U 1 1 58D31ACF
+P 2000 7000
+F 0 "C2" H 2025 7100 50  0000 L CNN
+F 1 "22μF" H 2025 6900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2038 6850 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf" H 2000 7000 50  0001 C CNN
+F 4 "TDK" H 2000 7000 60  0001 C CNN "MFG Name"
+F 5 "C2012X6S0J226M085AC" H 2000 7000 60  0001 C CNN "MFG Part Num"
+F 6 "445-14469-1-ND" H 2000 7000 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/tdk-corporation/C2012X6S0J226M085AC/445-14469-1-ND/3956135" H 2000 7000 60  0001 C CNN "Distrib Link"
+F 8 "20%" H 2000 7000 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv1501=7&pv1501=101&FV=1437e4%2C340080%2C340082%2C34008b%2C34009f%2C3400a1%2C3400aa%2C3400b7%2C3400ba%2C3400d3%2C3400d6%2C3400e7%2C340208%2C340223%2C340043%2C34005b%2C400006%2C1f140000%2Cffe0003c%2C380014%2C380016%2C380022%2C380004%2C380009&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" H 2000 7000 60  0001 C CNN "Others"
+	1    2000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS90-RESCUE-clock U2
+U 1 1 58D5CD8C
+P 5600 7700
+F 0 "U2" H 5700 7700 50  0000 C CNN
+F 1 "74LS90" H 5800 7500 50  0000 C CNN
+F 2 "clock:SOIC-14" H 5600 7700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls93.pdf" H 5600 7700 50  0001 C CNN
+F 4 "Texas Instruments" H 5600 7700 60  0001 C CNN "MFG Name"
+F 5 "SN74LS90D" H 5600 7700 60  0001 C CNN "MFG Part Num"
+F 6 "296-3746-5-ND" H 5600 7700 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741" H 5600 7700 60  0001 C CNN "Distrib Link"
+F 8 "-" H 5600 7700 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls90&stock=1" H 5600 7700 60  0001 C CNN "Others"
+	1    5600 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS90-RESCUE-clock U4
+U 1 1 58D5FCEA
+P 9900 8000
+F 0 "U4" H 10000 8000 50  0000 C CNN
+F 1 "74LS90" H 10100 7800 50  0000 C CNN
+F 2 "clock:SOIC-14" H 9900 8000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls93.pdf" H 9900 8000 50  0001 C CNN
+F 4 "Texas Instruments" H 9900 8000 60  0001 C CNN "MFG Name"
+F 5 "SN74LS90D" H 9900 8000 60  0001 C CNN "MFG Part Num"
+F 6 "296-3746-5-ND" H 9900 8000 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741" H 9900 8000 60  0001 C CNN "Distrib Link"
+F 8 "-" H 9900 8000 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls90&stock=1" H 9900 8000 60  0001 C CNN "Others"
+	1    9900 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS90-RESCUE-clock U6
+U 1 1 58D66BF9
+P 12100 8300
+F 0 "U6" H 12200 8300 50  0000 C CNN
+F 1 "74LS90" H 12300 8100 50  0000 C CNN
+F 2 "clock:SOIC-14" H 12100 8300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls93.pdf" H 12100 8300 50  0001 C CNN
+F 4 "Texas Instruments" H 12100 8300 60  0001 C CNN "MFG Name"
+F 5 "SN74LS90D" H 12100 8300 60  0001 C CNN "MFG Part Num"
+F 6 "296-3746-5-ND" H 12100 8300 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS90D/296-3746-5-ND/377741" H 12100 8300 60  0001 C CNN "Distrib Link"
+F 8 "-" H 12100 8300 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls90&stock=1" H 12100 8300 60  0001 C CNN "Others"
+	1    12100 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS247 U8
+U 1 1 58D726A2
+P 14300 6850
+F 0 "U8" H 14300 6950 50  0000 C CNN
+F 1 "74LS247" H 14300 6800 50  0000 C CNN
+F 2 "clock:SOIC-16" H 14300 6850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls247.pdf" H 14300 6850 50  0001 C CNN
+F 4 "Texas Instruments" H 14300 6850 60  0001 C CNN "MFG Name"
+F 5 "SN74LS247DR" H 14300 6850 60  0001 C CNN "MFG Part Num"
+F 6 "296-38241-1-ND" H 14300 6850 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS247DR/296-38241-1-ND/4967446" H 14300 6850 60  0001 C CNN "Distrib Link"
+F 8 "-" H 14300 6850 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls247&stock=1" H 14300 6850 60  0001 C CNN "Others"
+	1    14300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS247 U10
+U 1 1 58D727D2
+P 17650 6450
+F 0 "U10" H 17650 6550 50  0000 C CNN
+F 1 "74LS247" H 17650 6400 50  0000 C CNN
+F 2 "clock:SOIC-16" H 17650 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls247.pdf" H 17650 6450 50  0001 C CNN
+F 4 "Texas Instruments" H 17650 6450 60  0001 C CNN "MFG Name"
+F 5 "SN74LS247DR" H 17650 6450 60  0001 C CNN "MFG Part Num"
+F 6 "296-38241-1-ND" H 17650 6450 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS247DR/296-38241-1-ND/4967446" H 17650 6450 60  0001 C CNN "Distrib Link"
+F 8 "-" H 17650 6450 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls247&stock=1" H 17650 6450 60  0001 C CNN "Others"
+	1    17650 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 6450 15450 6450
+Wire Wire Line
+	15000 6550 15450 6550
+Wire Wire Line
+	15000 6650 15450 6650
+Wire Wire Line
+	15000 6750 15450 6750
+Wire Wire Line
+	15000 6850 15450 6850
+Wire Wire Line
+	15000 6950 15450 6950
+Wire Wire Line
+	15000 7050 15450 7050
+Wire Wire Line
+	12800 6900 13300 6900
+Wire Wire Line
+	12800 7000 13300 7000
+Wire Wire Line
+	12800 7100 13300 7100
+Wire Wire Line
+	12800 7200 13300 7200
+Wire Wire Line
+	12800 7300 13300 7300
+Wire Wire Line
+	12800 7400 13300 7400
+Wire Wire Line
+	12800 7500 13300 7500
+Wire Wire Line
+	18350 6050 18750 6050
+Wire Wire Line
+	18350 6150 18750 6150
+Wire Wire Line
+	18350 6250 18750 6250
+Wire Wire Line
+	18350 6350 18750 6350
+Wire Wire Line
+	18350 6450 18750 6450
+Wire Wire Line
+	18350 6550 18750 6550
+Wire Wire Line
+	18350 6650 18750 6650
+$Comp
+L 74LS00 U7
+U 3 1 58D92C6A
+P 17750 8200
+F 0 "U7" H 17750 8250 50  0000 C CNN
+F 1 "74LS00" H 17750 8100 50  0000 C CNN
+F 2 "clock:SOIC-14" H 17750 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn7400.pdf" H 17750 8200 50  0001 C CNN
+F 4 "Texas Instruments" H 17750 8200 60  0001 C CNN "MFG Name"
+F 5 "SN74LS00DR" H 17750 8200 60  0001 C CNN "MFG Part Num"
+F 6 "296-14873-1-ND" H 17750 8200 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS00DR/296-14873-1-ND/562561" H 17750 8200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 17750 8200 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls00&stock=1" H 17750 8200 60  0001 C CNN "Others"
+	3    17750 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS00 U7
+U 2 1 58D9322C
+P 17750 7200
+F 0 "U7" H 17750 7250 50  0000 C CNN
+F 1 "74LS00" H 17750 7100 50  0000 C CNN
+F 2 "clock:SOIC-14" H 17750 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn7400.pdf" H 17750 7200 50  0001 C CNN
+F 4 "Texas Instruments" H 17750 7200 60  0001 C CNN "MFG Name"
+F 5 "SN74LS00DR" H 17750 7200 60  0001 C CNN "MFG Part Num"
+F 6 "296-14873-1-ND" H 17750 7200 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS00DR/296-14873-1-ND/562561" H 17750 7200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 17750 7200 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls00&stock=1" H 17750 7200 60  0001 C CNN "Others"
+	2    17750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS00 U7
+U 4 1 58D934F6
+P 19100 7300
+F 0 "U7" H 19100 7350 50  0000 C CNN
+F 1 "74LS00" H 19100 7200 50  0000 C CNN
+F 2 "clock:SOIC-14" H 19100 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn7400.pdf" H 19100 7300 50  0001 C CNN
+F 4 "Texas Instruments" H 19100 7300 60  0001 C CNN "MFG Name"
+F 5 "SN74LS00DR" H 19100 7300 60  0001 C CNN "MFG Part Num"
+F 6 "296-14873-1-ND" H 19100 7300 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS00DR/296-14873-1-ND/562561" H 19100 7300 60  0001 C CNN "Distrib Link"
+F 8 "-" H 19100 7300 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74ls00&stock=1" H 19100 7300 60  0001 C CNN "Others"
+	4    19100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS73 U11
+U 2 1 58D9A5E0
+P 20400 8200
+F 0 "U11" H 20500 8300 50  0000 C CNN
+F 1 "74LS73" H 20500 8200 50  0000 C CNN
+F 2 "clock:SOIC-14" H 20400 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls73a.pdf" H 20400 8200 50  0001 C CNN
+F 4 "Texas Instruments" H 20400 8200 60  0001 C CNN "MFG Name"
+F 5 "SN74LS73ADR" H 20400 8200 60  0001 C CNN "MFG Part Num"
+F 6 "296-3742-1-ND" H 20400 8200 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/texas-instruments/SN74LS73ADR/296-3742-1-ND/405154" H 20400 8200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 20400 8200 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en?keywords=74LS73&stock=1" H 20400 8200 60  0001 C CNN "Others"
+	2    20400 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch_SPDT SW2
+U 1 1 58DA4360
+P 7100 8200
+F 0 "SW2" H 7075 8325 50  0000 C CNN
+F 1 "SWITCH_HR" H 7075 8000 50  0000 C CNN
+F 2 "clock:SWITCH_SPDT" H 7100 8200 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/NKK%20PDFs/AB_Series.pdf" H 7100 8200 50  0001 C CNN
+F 4 "NKK Switches" H 7100 8200 60  0001 C CNN "MFG Name"
+F 5 "AB15AP-FA" H 7100 8200 60  0001 C CNN "MFG Part Num"
+F 6 "360-2706-ND" H 7100 8200 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/nkk-switches/AB15AP-FA/360-2706-ND/1058527" H 7100 8200 60  0001 C CNN "Distrib Link"
+F 8 "-" H 7100 8200 60  0001 C CNN "Tolerance"
+F 9 "-" H 7100 8200 60  0001 C CNN "Others"
+	1    7100 8200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
