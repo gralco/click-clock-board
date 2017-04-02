@@ -3,7 +3,7 @@
   (general
     (links 179)
     (no_connects 0)
-    (area 105.982857 73 204.017143 119.000001)
+    (area 111.424999 76.924999 198.575001 115.075001)
     (thickness 1.6)
     (drawings 27)
     (tracks 990)
@@ -1080,12 +1080,12 @@
     (at 155 95.5 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
-    (path /5768CBC0/576916DC)
+    (path /5768CBC0/58DB149E)
     (attr smd)
     (fp_text reference R12 (at -2.65 0.1 360) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 220Ω (at 0 -2.1 270) (layer B.Fab) hide
+    (fp_text value 150Ω (at 0 -2.1 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -2.4 1) (end 2.4 1) (layer B.CrtYd) (width 0.05))
@@ -1109,12 +1109,12 @@
     (at 155 101 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
-    (path /5768CBC0/576915CC)
+    (path /5768CBC0/58DB173A)
     (attr smd)
     (fp_text reference R13 (at -2.7 0 360) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 220Ω (at 0 -2.1 270) (layer B.Fab) hide
+    (fp_text value 150Ω (at 0 -2.1 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -2.4 1) (end 2.4 1) (layer B.CrtYd) (width 0.05))
