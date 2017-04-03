@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad 4.0.4-1.fc25-product} date Sun Apr  2 19:56:49 2017
+;DRILL file {KiCad 4.0.4-1.fc25-product} date Sun Apr  2 21:22:20 2017
 ;FORMAT={-:-/ absolute / inch / decimal}
 FMAT,2
 INCH,TZ
@@ -53,6 +53,7 @@ X6.2442Y-3.1891
 X6.273Y-3.7891
 X6.2785Y-3.189
 X6.2992Y-3.7717
+X6.3031Y-3.2992
 X6.3632Y-3.1879
 X6.3839Y-4.3219
 X6.3976Y-3.7874
