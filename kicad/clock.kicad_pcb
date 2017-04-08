@@ -2190,14 +2190,14 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module clock:SWITCH_SPDT locked (layer F.Cu) (tedit 58E1E4C3) (tstamp 586B0287)
+  (module clock:SWITCH_SPDT locked (layer F.Cu) (tedit 58E856C6) (tstamp 586B0287)
     (at 137.5 83 270)
     (descr "Miniature SPDT Toggle Switch")
     (path /58DA4360)
-    (fp_text reference SW2 (at 0 -6 270) (layer F.SilkS)
+    (fp_text reference SW2 (at 0 -6 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value SWITCH_HR (at 0 6 270) (layer F.SilkS) hide
+    (fp_text value SWITCH_HR (at -3.5 0 360) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 1 0) (end 0.25 -2.5) (layer F.SilkS) (width 0.15))
@@ -2219,14 +2219,14 @@
     )
   )
 
-  (module clock:SWITCH_SPDT locked (layer F.Cu) (tedit 58E1E4C3) (tstamp 586B027A)
+  (module clock:SWITCH_SPDT locked (layer F.Cu) (tedit 58E856B6) (tstamp 586B027A)
     (at 172.5 83 270)
     (descr "Miniature SPDT Toggle Switch")
     (path /58708EE5)
-    (fp_text reference SW1 (at 0 -6 270) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 -6 270) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value SWITCH_MIN (at 0 6 270) (layer F.SilkS) hide
+    (fp_text value SWITCH_MIN (at -3.5 0 360) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 1 0) (end 0.25 -2.5) (layer F.SilkS) (width 0.15))
