@@ -2288,6 +2288,9 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
+  (segment (start 123.69 82.31) (end 124.96 81.04) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 124.96 81.04) (end 124.96 79.8) (width 0.25) (layer B.Cu) (net 1))
+  (segment (start 123.69 85.2) (end 123.69 82.31) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 155 102.35) (end 155 102.25) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 157 100.25) (end 157 96.85) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 155 102.25) (end 157 100.25) (width 0.25) (layer B.Cu) (net 1))
@@ -2332,8 +2335,6 @@
   (segment (start 126.279999 113.300001) (end 122.450001 113.300001) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 122.450001 113.300001) (end 121.825 112.675) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 121.825 112.675) (end 121.825 112.2) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 123.69 85.2) (end 123.69 81.545) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 123.69 81.545) (end 124.96 80.275) (width 0.25) (layer B.Cu) (net 1))
   (via (at 121.8 110.8) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 121.825 112.2) (end 121.825 110.825) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 121.825 110.825) (end 121.8 110.8) (width 0.25) (layer B.Cu) (net 1))
@@ -2364,7 +2365,6 @@
   (segment (start 131.6 99) (end 133.7 99) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 131.31 79.8) (end 130.7 79.8) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 130.7 79.8) (end 130.7 81.2) (width 0.25) (layer B.Cu) (net 1))
-  (segment (start 124.96 80.275) (end 124.96 79.8) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 128.77 85.2) (end 128.77 87.15) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 128.77 87.15) (end 130 88.38) (width 0.25) (layer B.Cu) (net 1) (tstamp 58CEE980))
   (segment (start 128.77 85.2) (end 128.77 87.07) (width 0.25) (layer B.Cu) (net 1))
@@ -4809,7 +4809,7 @@
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 178.5 84.25) (xy 177.75 84.25) (xy 177.75 83.5) (xy 178.5 83.5)
