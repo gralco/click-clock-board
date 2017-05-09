@@ -36,11 +36,11 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 2
-Title "Clock"
-Date "2017-03-21"
-Rev "0.2"
+Title "Click-Clock Board"
+Date "2017-05-08"
+Rev "0.3"
 Comp "Scalez Inc."
-Comment1 ""
+Comment1 "GNU GPLv3"
 Comment2 ""
 Comment3 ""
 Comment4 ""

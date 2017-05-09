@@ -142,45 +142,45 @@ $EndComp
 $Comp
 L VCC #PWR031
 U 1 1 5768F3F7
-P 6000 2500
-F 0 "#PWR031" H 6000 2350 50  0001 C CNN
-F 1 "VCC" H 6000 2650 50  0000 C CNN
-F 2 "" H 6000 2500 50  0000 C CNN
-F 3 "" H 6000 2500 50  0000 C CNN
-	1    6000 2500
+P 6000 2550
+F 0 "#PWR031" H 6000 2400 50  0001 C CNN
+F 1 "VCC" H 6000 2700 50  0000 C CNN
+F 2 "" H 6000 2550 50  0000 C CNN
+F 3 "" H 6000 2550 50  0000 C CNN
+	1    6000 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR032
 U 1 1 5768F3FD
-P 6000 3350
-F 0 "#PWR032" H 6000 3100 50  0001 C CNN
-F 1 "GND" H 6000 3200 50  0000 C CNN
-F 2 "" H 6000 3350 50  0000 C CNN
-F 3 "" H 6000 3350 50  0000 C CNN
-	1    6000 3350
+P 6000 3300
+F 0 "#PWR032" H 6000 3050 50  0001 C CNN
+F 1 "GND" H 6000 3150 50  0000 C CNN
+F 2 "" H 6000 3300 50  0000 C CNN
+F 3 "" H 6000 3300 50  0000 C CNN
+	1    6000 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR033
 U 1 1 5768F403
-P 6000 3750
-F 0 "#PWR033" H 6000 3600 50  0001 C CNN
-F 1 "VCC" H 6000 3900 50  0000 C CNN
-F 2 "" H 6000 3750 50  0000 C CNN
-F 3 "" H 6000 3750 50  0000 C CNN
-	1    6000 3750
+P 6000 3800
+F 0 "#PWR033" H 6000 3650 50  0001 C CNN
+F 1 "VCC" H 6000 3950 50  0000 C CNN
+F 2 "" H 6000 3800 50  0000 C CNN
+F 3 "" H 6000 3800 50  0000 C CNN
+	1    6000 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR034
 U 1 1 5768F409
-P 6000 4600
-F 0 "#PWR034" H 6000 4350 50  0001 C CNN
-F 1 "GND" H 6000 4450 50  0000 C CNN
-F 2 "" H 6000 4600 50  0000 C CNN
-F 3 "" H 6000 4600 50  0000 C CNN
-	1    6000 4600
+P 6000 4550
+F 0 "#PWR034" H 6000 4300 50  0001 C CNN
+F 1 "GND" H 6000 4400 50  0000 C CNN
+F 2 "" H 6000 4550 50  0000 C CNN
+F 3 "" H 6000 4550 50  0000 C CNN
+	1    6000 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -346,34 +346,38 @@ Connection ~ 1850 3400
 Wire Wire Line
 	1550 3150 1550 3200
 Wire Wire Line
-	1550 4000 1550 3950
+	1550 3900 1550 3850
 Wire Wire Line
-	1500 4000 1550 4000
-Text HLabel 1500 4000 0    60   Input ~ 0
+	1500 3900 1550 3900
+Text HLabel 1500 3900 0    60   Input ~ 0
 PM
 Wire Wire Line
 	1550 3500 1550 3550
 $Comp
 L LED D2
 U 1 1 58D3CCFE
-P 1550 3750
-F 0 "D2" V 1650 3625 50  0000 C CNN
-F 1 "LED" V 1500 3600 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 1550 3750 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf" H 1550 3750 50  0001 C CNN
-F 4 "Lite-On" V 1550 3750 60  0001 C CNN "MFG Name"
-F 5 "LTST-C171KRKT" V 1550 3750 60  0001 C CNN "MFG Part Num"
-F 6 "160-1427-1-ND" V 1550 3750 60  0001 C CNN "Distrib PN"
-F 7 "http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800" V 1550 3750 60  0001 C CNN "Distrib Link"
-F 8 "-" V 1550 3750 60  0001 C CNN "Tolerance"
-F 9 "http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&pkeyword=&pv1989=0&pv37=1&pv1843=2&pv16=6&FV=ffe00069&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 1550 3750 60  0001 C CNN "Others"
-	1    1550 3750
+P 1550 3700
+AR Path="/58D3CCFE" Ref="D2"  Part="1" 
+AR Path="/5768CBC0/58D3CCFE" Ref="D2"  Part="1" 
+F 0 "D2" V 1650 3575 50  0000 C CNN
+F 1 "LED" V 1500 3550 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 1550 3700 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf" H 1550 3700 50  0001 C CNN
+F 4 "Lite-On" V 1550 3700 60  0001 C CNN "MFG Name"
+F 5 "LTST-C171KRKT" V 1550 3700 60  0001 C CNN "MFG Part Num"
+F 6 "160-1427-1-ND" V 1550 3700 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800" V 1550 3700 60  0001 C CNN "Distrib Link"
+F 8 "-" V 1550 3700 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&pkeyword=&pv1989=0&pv37=1&pv1843=2&pv16=6&FV=ffe00069&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 1550 3700 60  0001 C CNN "Others"
+	1    1550 3700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D3
 U 1 1 58D3D896
 P 6000 3100
+AR Path="/58D3D896" Ref="D3"  Part="1" 
+AR Path="/5768CBC0/58D3D896" Ref="D3"  Part="1" 
 F 0 "D3" V 6100 2975 50  0000 C CNN
 F 1 "LED" V 5950 2950 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 6000 3100 50  0001 C CNN
@@ -391,6 +395,8 @@ $Comp
 L LED D4
 U 1 1 58D3DB41
 P 6000 4350
+AR Path="/58D3DB41" Ref="D4"  Part="1" 
+AR Path="/5768CBC0/58D3DB41" Ref="D4"  Part="1" 
 F 0 "D4" V 6100 4225 50  0000 C CNN
 F 1 "LED" V 5950 4200 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 6000 4350 50  0001 C CNN
@@ -405,17 +411,17 @@ F 9 "http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6000 3350 6000 3300
+	6000 3300 6000 3250
 Wire Wire Line
-	6000 2900 6000 2850
+	6000 2950 6000 2900
 Wire Wire Line
-	6000 2550 6000 2500
+	6000 2600 6000 2550
 Wire Wire Line
-	6000 4600 6000 4550
+	6000 4550 6000 4500
 Wire Wire Line
-	6000 4150 6000 4100
+	6000 4200 6000 4150
 Wire Wire Line
-	6000 3800 6000 3750
+	6000 3850 6000 3800
 $Comp
 L R R2
 U 1 1 58D53569
@@ -917,35 +923,35 @@ Wire Wire Line
 $Comp
 L R R12
 U 1 1 58DB149E
-P 6000 2700
-F 0 "R12" V 6080 2700 50  0000 C CNN
-F 1 "150Ω" V 6000 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5930 2700 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6000 2700 50  0001 C CNN
-F 4 "Stackpole Electronics" V 6000 2700 60  0001 C CNN "MFG Name"
-F 5 "RMCF0805JT150R" V 6000 2700 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0805JT150RCT-ND" V 6000 2700 60  0001 C CNN "Distrib PN"
-F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 6000 2700 60  0001 C CNN "Distrib Link"
-F 8 "5%" V 6000 2700 60  0001 C CNN "Tolerance"
-F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 6000 2700 60  0001 C CNN "Others"
-	1    6000 2700
+P 6000 2750
+F 0 "R12" V 6080 2750 50  0000 C CNN
+F 1 "150Ω" V 6000 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5930 2750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6000 2750 50  0001 C CNN
+F 4 "Stackpole Electronics" V 6000 2750 60  0001 C CNN "MFG Name"
+F 5 "RMCF0805JT150R" V 6000 2750 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0805JT150RCT-ND" V 6000 2750 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 6000 2750 60  0001 C CNN "Distrib Link"
+F 8 "5%" V 6000 2750 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 6000 2750 60  0001 C CNN "Others"
+	1    6000 2750
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R13
 U 1 1 58DB173A
-P 6000 3950
-F 0 "R13" V 6080 3950 50  0000 C CNN
-F 1 "150Ω" V 6000 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5930 3950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6000 3950 50  0001 C CNN
-F 4 "Stackpole Electronics" V 6000 3950 60  0001 C CNN "MFG Name"
-F 5 "RMCF0805JT150R" V 6000 3950 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0805JT150RCT-ND" V 6000 3950 60  0001 C CNN "Distrib PN"
-F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 6000 3950 60  0001 C CNN "Distrib Link"
-F 8 "5%" V 6000 3950 60  0001 C CNN "Tolerance"
-F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 6000 3950 60  0001 C CNN "Others"
-	1    6000 3950
+P 6000 4000
+F 0 "R13" V 6080 4000 50  0000 C CNN
+F 1 "150Ω" V 6000 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5930 4000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6000 4000 50  0001 C CNN
+F 4 "Stackpole Electronics" V 6000 4000 60  0001 C CNN "MFG Name"
+F 5 "RMCF0805JT150R" V 6000 4000 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0805JT150RCT-ND" V 6000 4000 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 6000 4000 60  0001 C CNN "Distrib Link"
+F 8 "5%" V 6000 4000 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 6000 4000 60  0001 C CNN "Others"
+	1    6000 4000
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

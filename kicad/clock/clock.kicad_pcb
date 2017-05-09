@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 180)
@@ -6,7 +6,7 @@
     (area 105.482857 73 204.517143 119.000001)
     (thickness 1.6)
     (drawings 27)
-    (tracks 928)
+    (tracks 932)
     (zones 0)
     (modules 56)
     (nets 88)
@@ -14,8 +14,11 @@
 
   (page A4)
   (title_block
-    (date 2017-03-21)
-    (rev 0.2)
+    (title "Click-Clock Board")
+    (date 2017-05-08)
+    (rev 0.3)
+    (company "Scalez Inc.")
+    (comment 1 "GNU GPLv3")
   )
 
   (layers
@@ -2250,7 +2253,7 @@
 
   (gr_line (start 115 115) (end 195 115) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 115 77) (end 195 77) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "Click-Clock Board v0.2\nGNU GPLv3" (at 155 111) (layer F.SilkS)
+  (gr_text "Click-Clock Board v0.3\nGNU GPLv3" (at 155 111) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text 5V (at 188.5 91.5) (layer F.SilkS)
@@ -2405,6 +2408,10 @@
   (segment (start 186.77 106.8) (end 186.77 108.17) (width 0.25) (layer B.Cu) (net 1) (status 10))
   (segment (start 186.77 108.17) (end 186.8 108.2) (width 0.25) (layer B.Cu) (net 1))
   (via (at 186.8 108.2) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (segment (start 115 81) (end 118.267436 77.732564) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 118.267436 77.732564) (end 191.732564 77.732564) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 191.732564 77.732564) (end 191.900001 77.900001) (width 0.25) (layer B.Cu) (net 2))
+  (segment (start 191.900001 77.900001) (end 195 81) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 160.23 106.8) (end 160.23 107.855002) (width 0.25) (layer B.Cu) (net 2) (status 10))
   (segment (start 160.23 107.855002) (end 162.15 109.775002) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 177.555 85.2) (end 177.555 84.445) (width 0.25) (layer B.Cu) (net 2) (status 30))

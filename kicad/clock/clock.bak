@@ -37,10 +37,10 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 2
 Title "Clock"
-Date "2017-03-21"
-Rev "0.2"
+Date "2017-05-08"
+Rev "0.3"
 Comp "Scalez Inc."
-Comment1 ""
+Comment1 "GNU GPLv3"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -594,35 +594,35 @@ $EndComp
 $Comp
 L LED D1
 U 1 1 58650D2E
-P 3100 6850
-F 0 "D1" V 3200 6725 50  0000 C CNN
-F 1 "LED" V 3050 6700 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 3100 6850 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf" H 3100 6850 50  0001 C CNN
-F 4 "Lite-On" V 3100 6850 60  0001 C CNN "MFG Name"
-F 5 "LTST-C171KRKT" V 3100 6850 60  0001 C CNN "MFG Part Num"
-F 6 "160-1427-1-ND" V 3100 6850 60  0001 C CNN "Distrib PN"
-F 7 "http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800" V 3100 6850 60  0001 C CNN "Distrib Link"
-F 8 "-" V 3100 6850 60  0001 C CNN "Tolerance"
-F 9 "http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&pkeyword=&pv1989=0&pv37=1&pv1843=2&pv16=6&FV=ffe00069&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 3100 6850 60  0001 C CNN "Others"
-	1    3100 6850
+P 3100 6900
+F 0 "D1" V 3200 6775 50  0000 C CNN
+F 1 "LED" V 3050 6750 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 3100 6900 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf" H 3100 6900 50  0001 C CNN
+F 4 "Lite-On" V 3100 6900 60  0001 C CNN "MFG Name"
+F 5 "LTST-C171KRKT" V 3100 6900 60  0001 C CNN "MFG Part Num"
+F 6 "160-1427-1-ND" V 3100 6900 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KRKT/160-1427-1-ND/386800" V 3100 6900 60  0001 C CNN "Distrib Link"
+F 8 "-" V 3100 6900 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/optoelectronics/led-indication-discrete/105?k=&pkeyword=&pv1989=0&pv37=1&pv1843=2&pv16=6&FV=ffe00069&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 3100 6900 60  0001 C CNN "Others"
+	1    3100 6900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R1
 U 1 1 58650E59
-P 3100 6450
-F 0 "R1" V 3180 6450 50  0000 C CNN
-F 1 "150Ω" V 3100 6450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3030 6450 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3100 6450 50  0001 C CNN
-F 4 "Stackpole Electronics" V 3100 6450 60  0001 C CNN "MFG Name"
-F 5 "RMCF0805JT150R" V 3100 6450 60  0001 C CNN "MFG Part Num"
-F 6 "RMCF0805JT150RCT-ND" V 3100 6450 60  0001 C CNN "Distrib PN"
-F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 3100 6450 60  0001 C CNN "Distrib Link"
-F 8 "5%" V 3100 6450 60  0001 C CNN "Tolerance"
-F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 3100 6450 60  0001 C CNN "Others"
-	1    3100 6450
+P 3100 6550
+F 0 "R1" V 3180 6550 50  0000 C CNN
+F 1 "150Ω" V 3100 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3030 6550 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3100 6550 50  0001 C CNN
+F 4 "Stackpole Electronics" V 3100 6550 60  0001 C CNN "MFG Name"
+F 5 "RMCF0805JT150R" V 3100 6550 60  0001 C CNN "MFG Part Num"
+F 6 "RMCF0805JT150RCT-ND" V 3100 6550 60  0001 C CNN "Distrib PN"
+F 7 "http://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT150R/RMCF0805JT150RCT-ND/1942541" V 3100 6550 60  0001 C CNN "Distrib Link"
+F 8 "5%" V 3100 6550 60  0001 C CNN "Tolerance"
+F 9 "http://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv16=6&FV=ffe00034%2C400bb&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=500" V 3100 6550 60  0001 C CNN "Others"
+	1    3100 6550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -645,12 +645,12 @@ $EndComp
 $Comp
 L VCC #PWR018
 U 1 1 586D40C8
-P 3100 6250
-F 0 "#PWR018" H 3100 6100 50  0001 C CNN
-F 1 "VCC" H 3100 6400 50  0000 C CNN
-F 2 "" H 3100 6250 50  0000 C CNN
-F 3 "" H 3100 6250 50  0000 C CNN
-	1    3100 6250
+P 3100 6350
+F 0 "#PWR018" H 3100 6200 50  0001 C CNN
+F 1 "VCC" H 3100 6500 50  0000 C CNN
+F 2 "" H 3100 6350 50  0000 C CNN
+F 3 "" H 3100 6350 50  0000 C CNN
+	1    3100 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -735,7 +735,7 @@ F 3 "" H 1900 7250 50  0000 C CNN
 	1    1900 7250
 	1    0    0    -1  
 $EndComp
-Text Notes 3125 6700 0    60   ~ 0
+Text Notes 3125 6750 0    60   ~ 0
 Seconds
 $Comp
 L C C2
@@ -1020,9 +1020,9 @@ Wire Wire Line
 Wire Wire Line
 	2900 7250 2900 7200
 Wire Wire Line
-	3100 6250 3100 6300
+	3100 6350 3100 6400
 Wire Wire Line
-	3100 6650 3100 6600
+	3100 6750 3100 6700
 Wire Wire Line
 	3100 7050 3100 8200
 Connection ~ 8950 7950
