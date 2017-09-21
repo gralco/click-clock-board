@@ -14,8 +14,11 @@
 
   (page A4)
   (title_block
+    (title "Click-Clock Board")
     (date 2017-05-08)
     (rev 0.3)
+    (company "Scalez Inc.")
+    (comment 1 "GNU GPLv3")
   )
 
   (layers
